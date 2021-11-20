@@ -8,10 +8,10 @@ import 'login.dart';
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: MyLogin(),
+    home: const MyLogin(),
     routes: {
-      'register': (context) => MyRegister(),
-      'login': (context) => MyLogin(),
+      'register': (context) => const MyRegister(),
+      'login': (context) => const MyLogin(),
     },
   ));
 }
